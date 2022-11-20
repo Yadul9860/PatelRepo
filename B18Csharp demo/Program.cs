@@ -35,7 +35,17 @@ namespace B18Csharp_demo
                     name1 += name[i];
                 }
             }
-            Console.WriteLine(name1);
+
+            string name2 = "yadulpatel";
+            string name3 = string.Empty;
+            for (int i = 0; i < name2.Length; i++)
+            {
+                if (!name3.Contains(name[i]))
+                {
+                    name3 += name2[i];
+                }
+            }
+            Console.WriteLine(name3);
             Console.ReadLine();
 
         }
