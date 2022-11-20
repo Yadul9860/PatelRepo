@@ -36,6 +36,7 @@ namespace B18Csharp_demo
                 }
             }
 
+            // rev
             string name2 = "yadulpatel";
             string name3 = string.Empty;
             for (int i = 0; i < name2.Length; i++)
