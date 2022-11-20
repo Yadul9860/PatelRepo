@@ -17,5 +17,10 @@ namespace B18Csharp_demo
             Console.WriteLine($"Name:{name} Age:{age}");
         }
 
+        public void YadulPatel()
+        {
+            Console.WriteLine($"Name:{name} Age:{age}");
+        }
+
     }
 }
