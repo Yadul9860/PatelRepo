@@ -37,13 +37,13 @@ namespace B18Csharp_demo
             }
 
             // rev
-            string name2 = "yadulpatel";
-            string name3 = string.Empty;
-            for (int i = 0; i < name2.Length; i++)
+            string name3 = "yadulpatel";
+            string name4 = string.Empty;
+            for (int i = 0; i < name3.Length; i++)
             {
                 if (!name3.Contains(name[i]))
                 {
-                    name3 += name2[i];
+                    name3 += name3[i];
                 }
             }
             Console.WriteLine(name3);
